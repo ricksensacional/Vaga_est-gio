@@ -1,0 +1,10 @@
+sstring_original = input("Informe a string a ser invertida: ")
+
+string_invertida = ""
+
+for i in range(len(string_original) - 1, -1, -1):
+    
+    string_invertida += string_original[i]
+
+# Imprimir a string invertida
+print("String invertida:", string_invertida)
